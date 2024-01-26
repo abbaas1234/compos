@@ -16,8 +16,8 @@ import { CollectionsModule } from './collections/collections.module';
   ],
   imports: [
     BrowserModule,
-    ElementsModule,
-    CollectionsModule,
+    // ElementsModule,
+    // CollectionsModule,
     AppRoutingModule
   ],
   providers: [],

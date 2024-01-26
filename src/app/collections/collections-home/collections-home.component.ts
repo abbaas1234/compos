@@ -8,15 +8,16 @@ import { Component } from '@angular/core';
 export class CollectionsHomeComponent {
 
   data = [
-    { name: 'ali', age: 24, job: 'designer' },
-    { name: 'reza', age: 21, job: 'engineer' },
-    { name: 'sara', age: 18, job: 'ui' },
+    { name: 'ali', age: 24, job: 'designer', employed: true },
+    { name: 'reza', age: 21, job: 'engineer', employed: true },
+    { name: 'sara', age: 18, job: 'ui', employed: false },
   ];
 
-  header = [
-    { key: 'name', value: 'Name' },
-    { key: 'age', value: 'Age' },
-    { key: 'job', value: 'Job' },
+  headers = [
+    { key: 'name', value: 'Name', show: true },
+    { key: 'age', value: 'Age', show: true },
+    { key: 'job', value: 'Job', show: false },
+    { key: 'employed', value: 'Employed', show: true }
   ]
 
 }

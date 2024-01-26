@@ -7,5 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class TableComponent {
   @Input() data = [];
-  @Input() header = [];
+  @Input() headers = [];
+  @Input() tableClass = 'basic';
 }

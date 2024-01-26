@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { ElementsModule } from './elements/elements.module';
+import { CollectionsModule } from './collections/collections.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
+    ElementsModule,
+    CollectionsModule,
     AppRoutingModule
   ],
   providers: [],
